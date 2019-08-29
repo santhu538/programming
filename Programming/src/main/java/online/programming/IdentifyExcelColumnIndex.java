@@ -7,7 +7,14 @@ public class IdentifyExcelColumnIndex {
 
     public static void main(String[] args) {
 
-        int num = new IdentifyExcelColumnIndex().getNumber("BCD".toUpperCase());
+        int num = 0;
+        if(args.length > 0) {
+            num = new IdentifyExcelColumnIndex().getNumber(args[0]);
+        }
+        else {
+            /** execute this if argument is not passed */
+            num = new IdentifyExcelColumnIndex().getNumber("BCDD");
+        }
         System.out.println("Index of the given excel column :: "+num);
 
     }
