@@ -1,0 +1,37 @@
+package test.programming;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.junit.MockitoJUnitRunner;
+
+@RunWith(MockitoJUnitRunner.class)
+public class NumberToWordConvertorTest {
+
+	@InjectMocks
+	NumberToWordConvertor numberToWordConvertor;
+
+	@Test
+	public void test_getBritishWord() {
+		assertEquals("ten", numberToWordConvertor.getEnglishWord(10));
+		assertEquals("nineteen", numberToWordConvertor.getEnglishWord(19));
+	}
+	
+	@Test
+	public void test_IdentifyWord() {
+		assertEquals("nine hundred and ninety nine",numberToWordConvertor.identifyWord(999));
+		assertEquals("three hundred and twenty",numberToWordConvertor.identifyWord(320));
+		assertEquals("one hundred",numberToWordConvertor.identifyWord(100));
+		assertEquals("ninety nine",numberToWordConvertor.identifyWord(99));
+		assertEquals("nineteen",numberToWordConvertor.identifyWord(19));
+	}
+	
+	@Test
+	public void test_displayWord() {
+		assertEquals("fifty six million nine hundred and forty five thousand seven hundred and eighty one",numberToWordConvertor.displayWord("56945781"));
+		
+	}
+
+}

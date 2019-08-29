@@ -1,0 +1,5 @@
+package online.programming.exception;
+
+public class InvalidInputException {
+
+}
