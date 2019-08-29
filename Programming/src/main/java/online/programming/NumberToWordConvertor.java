@@ -15,7 +15,11 @@ public class NumberToWordConvertor {
 
 
 	public static void main(String[] args) {
-        String word = new NumberToWordConvertor().displayWord("999999999999999");
+		if(args.length == 0) {
+			System.out.println("argument is required.");
+			System.exit(0);
+		}
+        String word = new NumberToWordConvertor().displayWord(args[0]);
         System.out.println("British English words for the given number is :: "+word);
     }
     
@@ -26,7 +30,7 @@ public class NumberToWordConvertor {
 	 * @param number
 	 * @return
 	 */
-    String displayWord(String number) {
+    public String displayWord(String number) {
     	int num = 0;
     	try {
     		long longNum = Long.parseLong(number);
