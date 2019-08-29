@@ -15,11 +15,14 @@ public class NumberToWordConvertor {
 
 
 	public static void main(String[] args) {
-		if(args.length == 0) {
-			System.out.println("argument is required.");
-			System.exit(0);
+		String word = null;
+		if(args.length > 0) {
+			word = new NumberToWordConvertor().displayWord(args[0]);
 		}
-        String word = new NumberToWordConvertor().displayWord(args[0]);
+        else {
+        	/** execute this if argument is not passed */
+        	word = new NumberToWordConvertor().displayWord("293");
+		}
         System.out.println("British English words for the given number is :: "+word);
     }
     
