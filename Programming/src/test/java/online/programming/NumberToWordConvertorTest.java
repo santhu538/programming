@@ -7,7 +7,6 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import online.programming.NumberToWordConvertor;
 import online.programming.exception.InvalidInputException;
 
 @RunWith(MockitoJUnitRunner.class)
