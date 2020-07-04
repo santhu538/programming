@@ -1,0 +1,24 @@
+version: "3"
+services:
+  nginx:
+    restart: always
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - api
+    networks:
+      - webappnetwork
+  api:
+    restart: on-failure
+    build: .
+    ports:
+      - "9090:9090"
+    networks:
+      - webappnetwork
+
+networks:
+  webappnetwork:
+    driver: bridge

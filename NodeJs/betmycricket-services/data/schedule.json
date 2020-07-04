@@ -1,0 +1,165 @@
+{
+	"name":"IPL 2020",
+	"startDate":1584973800000,
+	"endDate":1589304600000,
+	"teams": [{
+		"name":"Royal Challengers Bangalore",
+		"code":"RCB",
+		"homeplace":"Bangalore",
+		"players":[
+			{
+				"name":"Virat King Kohli",
+				"playerRole":"Batsman",
+				"wicketKeeper":false,
+				"captain":true
+			},
+			{
+				"name":"AB de Villiers",
+				"playerRole":"Batsman",
+				"wicketKeeper":false,
+				"captain":false
+			},
+			{
+				"name":"Mohammad Siraj",
+				"playerRole":"Bowler",
+				"wicketKeeper":false,
+				"captain":false
+			},
+			{
+				"name":"Marcus Stoinis",
+				"playerRole":"All Rounder",
+				"wicketKeeper":false,
+				"captain":false
+			}
+		]
+	}
+	],
+	"schedule":[
+		{   
+            "sno":1,
+			"team1":"RCB",
+			"team2":"MI",
+			"venue":"M.A.Chidambaram Chepauk Stadium, Chennai",
+			"scheduledDate":1584973800000
+		},
+		{
+            "sno":2,
+			"team1":"KKR",
+			"team2":"SRH",
+			"venue":"Eden Gardens Stadium, Kolkata",
+			"scheduledDate":1585045800000
+		},
+		{
+            "sno":3,
+			"team1":"MI",
+			"team2":"DC",
+			"venue":"Wankhede Stadium, Mumbai",
+			"scheduledDate":1585060200000
+        },
+		{
+            "sno":4,
+			"team1":"RR",
+			"team2":"KXIP",
+			"venue":"Wankhede Stadium, Mumbai",
+			"scheduledDate":1585146600000
+		},
+		{
+            "sno":5,
+			"team1":"DC",
+			"team2":"CSK",
+			"venue":"Feroz Shah Kotla Stadium, Delhi",
+			"scheduledDate":1585233000000
+		},
+		{
+            "sno":6,
+			"team1":"KKR",
+			"team2":"KXIP",
+			"venue":"Eden Gardens Stadium, Kolkata",
+			"scheduledDate":1585319400000
+		},
+		{
+            "sno":7,
+			"team1":"RCB",
+			"team2":"MI",
+			"venue":"M.Chinnaswamy Stadium, Bengaluru",
+			"scheduledDate":1585405800000
+		},
+		{
+            "sno":8,
+			"team1":"SRH",
+			"team2":"RR",
+			"venue":"RGI Stadium, Hyderabad",
+			"scheduledDate":1585492200000
+		},
+		{
+            "sno":9,
+			"team1":"KXIP",
+			"team2":"MI",
+			"venue":"PCA Stadium, Mohali",
+			"scheduledDate":1585564200000
+		},
+		{
+            "sno":10,
+			"team1":"DC",
+			"team2":"KKR",
+			"venue":"Feroz Shah Kotla Stadium, Delhi",
+			"scheduledDate":1585578600000
+		},
+		{
+            "sno":11,
+			"team1":"SRH",
+			"team2":"RCB",
+			"venue":"RGI Stadium, Hyderabad",
+			"scheduledDate":1585650600000
+		},
+		{
+            "sno":12,
+			"team1":"CSK",
+			"team2":"RR",
+			"venue":"M.A.Chidambaram Stadium, Chennai",
+			"scheduledDate":1585665000000
+		},
+		{
+            "sno":13,
+			"team1":"KXIP",
+			"team2":"DC",
+			"venue":"PCA Stadium, Mohali",
+			"scheduledDate":1585751400000
+		},
+		{
+            "sno":14,
+			"team1":"RR",
+			"team2":"RCB",
+			"venue":"Sawai Mansingh Stadium, Jaipur",
+			"scheduledDate":1585837800000
+		},
+		{
+            "sno":15,
+			"team1":"MI",
+			"team2":"CSK",
+			"venue":"Wankhede Stadium, Mumbai",
+			"scheduledDate":1585924200000
+		},
+		{
+            "sno":16,
+			"team1":"DC",
+			"team2":"SRH",
+			"venue":"Feroz Shah Kotla Stadium, Delhi",
+			"scheduledDate":1586010600000
+		},
+		{
+            "sno":17,
+			"team1":"RCB",
+			"team2":"KKR",
+			"venue":"M.Chinnaswamy Stadium, Bangalore",
+			"scheduledDate":1585665000000
+		},
+		{
+            "sno":18,
+			"team1":"KKR",
+			"team2":"KXIP",
+			"venue":"Eden Gardens, Kolkata",
+			"scheduledDate":1585665000000
+		}
+	]
+}
